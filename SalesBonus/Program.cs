@@ -1,4 +1,12 @@
-﻿using System;
+﻿///
+/// App name: Sales Bonus
+/// Author's name: Navleen Kaur Gill
+/// App Creation Date: January 29, 2016
+/// App Description: This app calculates the sales bonus per month for each employee depending upon 
+/// the monthly sales of the company.
+/// 
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +24,7 @@ namespace SalesBonus
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new MailOrder());
         }
     }
 }
